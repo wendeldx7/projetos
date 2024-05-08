@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produtos do Carrinho</title>
+    <link rel="stylesheet" href="../css/carrinho.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="logo" href="../index">WD Store</a>
+        <ul class="nav-list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./login.html">Login</a></li>
+          <li><a href="https://fakestoreapi.com/">Docs</a></li>
+          <a href="carrinho.html"
+            ><img src="../img/carrinho.png" alt="carrinho"
+          /></a>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="produtos-carrinho"></div>
+      <div id="total-preco-carrinho"></div>
+      <button id="btn-efetuar-compra">Efetuar Compra</button>
+
+      <div id="compra-efetuada-box" style="display: none">
+        <p>Compra efetuada com sucesso!</p>
+      </div>
+      <button id="btn-voltar" onclick="window.location.href='../index.html'">
+        Continuar comprando
+      </button>
+    </main>
+
+    <script src="../js/carrinho.js"></script>
+  </body>
+</html>

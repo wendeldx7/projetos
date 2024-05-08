@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="logo" href="index.html">WD Store</a>
+        <ul class="nav-list">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./pages/login.html">Login</a></li>
+          <li><a href="https://fakestoreapi.com/">Docs</a></li>
+          <a href="./pages/carrinho.html"><img src="./img/carrinho.png" alt="carrinho" /></a>
+      </nav>
+      <section>
+        <select id="categorias">
+          <option value="" disabled selected>Selecione a categoria</option>
+          <option value="">Todas as categorias</option>
+          <option value="electronics">Eletrônicos</option>
+          <option value="jewelery">Jóias</option>
+          <option value="women's clothing">Roupa para Mulher</option>
+          <option value="men's clothing">Roupa para Homem</option>
+        </select>
+        <select id="ordem">
+          <option value="" disabled selected>Escolha como deseja ordenar</option>
+          <option value="asc">Menor Preço</option>
+          <option value="desc">Maior Preço</option>
+        </select>
+      </section>
+    </header>
+    <main id="container-produtos"></main>
+    <footer>
+      <p>&copy; Todos os direitos reservados - @wd_dev</p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
